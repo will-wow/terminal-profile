@@ -80,6 +80,7 @@ module.exports = {
       loader: 'json'
     }, {
       test: /\.scss$/,
+      exclude: [/node_modules/], // sassLoader will include node_modules explicitly.
       // we extract the styles into their own .css file instead of having
       // them inside the js.
       loader: ExtractTextPlugin.extract('style', 'css!postcss!sass')
@@ -93,5 +94,8 @@ module.exports = {
   },
   postcss: [
     require('autoprefixer')
-  ]
+  ],
+  sassLoader: {
+    includePaths: [path.resolve(__dirname, "node_modules")]
+  }
 };

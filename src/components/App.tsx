@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { Link } from 'react-router';
+import Title from './Title';
 
 const App = ({ children }) =>
   <div>
-    <h1>Filter table</h1>
+    <Title></Title>
     {children}
     <footer>
       <Link to="/">Filterable Table</Link>
