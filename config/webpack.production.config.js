@@ -91,8 +91,8 @@ module.exports = {
       test: /\.(png|jpg)(\?[a-z0-9#=&.]+)?$/,
       loader: 'url?limit=10000&name=img-[hash:6].[ext]'
     }, {
-      test: /\.favicon\.ico$/,
-      loader: 'url?limit=1'
+      test: /favicon\.ico$/,
+      loader: 'url?limit=1&name=[name].[ext]'
     }, {
       test: /\.(ttf|eot|svg)(\?[a-z0-9#=&.]+)?$/,
       loader: 'file'
