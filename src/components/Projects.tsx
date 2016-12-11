@@ -78,11 +78,14 @@ interface IProjectsState {
 class Projects extends React.Component<any, IProjectsState> {
   render() {
     return (
-      <table className="projects">
-        <tbody>
-          {_.map(PROJECTS, this.project)}
-        </tbody>
-      </table>
+      <div className="projects">
+        <p>Here are some of the open-source projects I've put together over the years:</p>
+        <table className="projects">
+          <tbody>
+            {_.map(PROJECTS, this.project)}
+          </tbody>
+        </table>
+      </div>
     );
   }
 
