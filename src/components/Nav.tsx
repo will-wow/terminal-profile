@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router';
 import Cursor from './Cursor';
 
 const title = `When There's a Will`;
@@ -17,8 +18,8 @@ class Nav extends React.Component<any, INavState> {
             <Cursor></Cursor>
           </h1>
           <div className="title-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <Link to="/">About</Link>
+            <Link to="/projects">Projects</Link>
           </div>
         </div>
       </div>

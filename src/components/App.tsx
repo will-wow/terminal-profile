@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { Link } from 'react-router';
 import Nav from './Nav';
+import Terminal from './Terminal';
 
 const App = ({ children }) =>
-  <div className="column">
+  <div className="app row">
     <Nav></Nav>
-    {children}
-    <footer>
-      <Link to="/">Filterable Table</Link>
-      <Link to="/about">About</Link>
-    </footer>
+    
+    <Terminal>
+      {children}
+    </Terminal>
   </div>;
 
 export default App;

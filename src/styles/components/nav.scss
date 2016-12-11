@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+  // Stop small screens from squishing nav.
+  flex-shrink: 0;
 
   .title-links {
     display: flex;

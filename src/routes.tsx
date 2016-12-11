@@ -3,10 +3,11 @@ import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
 import FilterableTable from './containers/FilterableTable';
 import About from './components/About';
+import Projects from './components/Projects';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={FilterableTable} />
-    <Route path="/about" component={About} />
+    <IndexRoute component={About} />
+    <Route path="/projects" component={Projects} />
   </Route>
 );
