@@ -8,7 +8,9 @@ class Terminal extends React.Component<any, ITerminalState> {
   render() {
     return (
       <Scrollbars className="terminal">
-        { this.props.children }
+        <div className="terminal-container">
+          { this.props.children }
+        </div>
       </Scrollbars>
     );
   }

@@ -2,5 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   height: 100%;
+
+  &:before {
+    // The centering hack only works if the default before isn't there.
+    display: none;
+  }
+
+  @include breakpoint(medium) {
+    &:after {
+      // Add an after the same size as the top area, to center the terminal.
+      content: " ";
+      flex-shrink: 1;
+      flex-basis: 103px;
+    }
+  }
 }

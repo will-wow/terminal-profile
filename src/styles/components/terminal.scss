@@ -1,21 +1,19 @@
 .terminal {
-  width: 100%;
-  max-width: 750px;
-  height: 400px;
-  max-height: 400px;
-  overflow-y: auto;
   overflow-x: hidden;
+  overflow-x: auto;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  &::before {
-    content: "";
-    flex-grow: 1;
+  .terminal-container {
+    margin: 10px;
   }
 
-  // & > * {
-  //   transition: height 2s;
-  // }
+  @include breakpoint(medium) {
+    .terminal-container {
+      margin: 10px;
+    }
+
+    width: 100%;
+    max-width: 750px;
+    height: 400px;
+    max-height: 400px;
+  }
 }
