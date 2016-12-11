@@ -88,6 +88,12 @@ module.exports = {
       test: /\.woff(2)?(\?[a-z0-9#=&.]+)?$/,
       loader: 'url?limit=10000&mimetype=application/font-woff'
     }, {
+      test: /\.(png|jpg)(\?[a-z0-9#=&.]+)?$/,
+      loader: 'url?limit=10000&name=img-[hash:6].[ext]'
+    }, {
+      test: /\.favicon\.ico$/,
+      loader: 'url?limit=1'
+    }, {
       test: /\.(ttf|eot|svg)(\?[a-z0-9#=&.]+)?$/,
       loader: 'file'
     }]
@@ -96,6 +102,6 @@ module.exports = {
     require('autoprefixer')
   ],
   sassLoader: {
-    includePaths: [path.resolve(__dirname, "node_modules")]
+    includePaths: [path.resolve(__dirname, "../node_modules")]
   }
 };
