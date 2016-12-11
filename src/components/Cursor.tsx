@@ -23,7 +23,7 @@ class Cursor extends React.Component<any, ICursorState> {
   }
 
   render() {
-    const titleClass = classnames('cursor', { 'hide': !this.state.blink });
+    const titleClass = classnames('cursor', { 'on': this.state.blink });
     return (
       <span className={titleClass} />
     );

@@ -1,7 +1,10 @@
 .cursor {
   height: 1em;
   width: 0.4em;
-  background-color: $green;
   display: inline-block;
   margin: 0 0.15em;
+
+  &.on {
+    background-color: $cyan;;
+  }
 }

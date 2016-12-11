@@ -27,11 +27,12 @@ $green:     #859900;
 .cyan { color: $cyan; }
 .green { color: $green; }
 
-$body-background: $base03;
+$body-background: rgba(#002b36, 0.85);
 $body-font-color: $base0;
 $header-color: $base1;
-$anchor-color: $base1;
-$anchor-color-hover: $base2;
+$anchor-color: $blue;
+$anchor-color-hover: $green;
 
 h1,h2,h3,h4,h5,h6 { border-color: $base0; }
-a, a:active, a:visited { color: $anchor-color; }
+a:active { color: $anchor-color-hover; }
+a::visited { color: $anchor-color; }

@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // Space for cursor.
+    margin-right: 33.588px;
+
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}

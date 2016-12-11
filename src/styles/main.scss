@@ -8,7 +8,11 @@
 @import './components/index';
 
 html {
-  background-color: $base02;
+  background-image: url(/img/bosphorus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top right;
 }
 
 .filterable-table {
