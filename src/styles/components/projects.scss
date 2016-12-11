@@ -1,0 +1,17 @@
+.projects {
+  tbody, tbody tr:nth-child(even) {
+    background-color: transparent;
+    border: none;
+  }
+
+  td {
+    vertical-align: top;
+  }
+
+  a.project-link {
+    color: $magenta;
+    &:hover {
+      color: #cb4b16;
+    }
+  }
+}
