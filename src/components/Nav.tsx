@@ -1,12 +1,10 @@
-import * as React from 'react';
-import { Link } from 'react-router';
-import Cursor from './Cursor';
+import * as React from "react";
+import { Link } from "react-router";
+import Cursor from "./Cursor";
 
 const title = `When There's a Will`;
 
-interface INavState {
-
-}
+interface INavState {}
 
 class Nav extends React.Component<any, INavState> {
   render() {
@@ -15,7 +13,7 @@ class Nav extends React.Component<any, INavState> {
         <div className="nav-wrapper">
           <h1 className="title cyan">
             {title}
-            <Cursor></Cursor>
+            <Cursor />
           </h1>
           <div className="title-links">
             <Link to="/">About</Link>

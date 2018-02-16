@@ -1,31 +1,47 @@
 /*
  * Solarized colors from http://ethanschoonover.com/solarized
  */
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #d33683;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$yellow: #b58900;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #d33683;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
 
-.yellow { color: $yellow; }
-.orange { color: $orange; }
-.red { color: $red; }
-.magenta { color: $magenta; }
-.violet { color: $violet; }
-.blue { color: $blue; }
-.cyan { color: $cyan; }
-.green { color: $green; }
+.yellow {
+  color: $yellow;
+}
+.orange {
+  color: $orange;
+}
+.red {
+  color: $red;
+}
+.magenta {
+  color: $magenta;
+}
+.violet {
+  color: $violet;
+}
+.blue {
+  color: $blue;
+}
+.cyan {
+  color: $cyan;
+}
+.green {
+  color: $green;
+}
 
 $body-background: rgba(#002b36, 0.9);
 $body-font-color: $base0;
@@ -33,4 +49,11 @@ $header-color: $base1;
 $anchor-color: $blue;
 $anchor-color-hover: $green;
 
-h1,h2,h3,h4,h5,h6 { border-color: $base0; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-color: $base0;
+}

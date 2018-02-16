@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { Component } from 'react';
-import { Provider } from 'react-redux';
-import routes from '../routes';
-import { Router } from 'react-router';
+import * as React from "react";
+import { Component } from "react";
+import { Provider } from "react-redux";
+import routes from "../routes";
+import { Router } from "react-router";
 
 interface IRootProps {
   store: any;

@@ -1,5 +1,5 @@
-import * as React from 'react';
-import classnames = require('classnames');
+import * as React from "react";
+import classnames = require("classnames");
 
 interface ICursorState {
   blink: boolean;
@@ -23,10 +23,8 @@ class Cursor extends React.Component<any, ICursorState> {
   }
 
   render() {
-    const titleClass = classnames('cursor', { 'on': this.state.blink });
-    return (
-      <span className={titleClass} />
-    );
+    const titleClass = classnames("cursor", { on: this.state.blink });
+    return <span className={titleClass} />;
   }
 
   private updateBlink = (): void => {

@@ -1,4 +1,4 @@
-declare module 'react-hot-loader';
+declare module "react-hot-loader";
 
 interface NodeModule {
   /** Hot reload stuff */

@@ -1,13 +1,18 @@
 // Do this first, since it includes foundation overrides.
 
-@import './variables/index';
+@import "./variables/index";
 // Foundation
-@import 'foundation-sites/scss/foundation';
+@import "foundation-sites/scss/foundation";
 @include foundation-everything;
 
-@import './components/index';
+@import "./components/index";
 
-html, body, #root, [data-reactroot] { height: 100%; }
+html,
+body,
+#root,
+[data-reactroot] {
+  height: 100%;
+}
 
 html {
   background-image: url(../img/bosphorus.jpg);

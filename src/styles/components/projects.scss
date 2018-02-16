@@ -1,5 +1,6 @@
 .projects {
-  tbody, tbody tr:nth-child(even) {
+  tbody,
+  tbody tr:nth-child(even) {
     background-color: transparent;
     border: none;
   }

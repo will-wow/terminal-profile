@@ -1,9 +1,9 @@
-import configureStoreProd from './configureStore.prod';
-import configureStoreDev from './configureStore.dev';
+import configureStoreProd from "./configureStore.prod";
+import configureStoreDev from "./configureStore.dev";
 
 let store: any;
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === "production") {
   store = configureStoreProd;
 } else {
   store = configureStoreDev;
