@@ -13,7 +13,7 @@ module.exports = {
     path.join(__dirname, "../src/index.tsx")
   ],
   output: {
-    path: path.join(__dirname, "../dist/"),
+    path: path.join(__dirname, "../docs/"),
     filename: "[name].js",
     publicPath: "/"
   },

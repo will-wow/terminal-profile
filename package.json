@@ -6,8 +6,7 @@
   "scripts": {
     "test": "",
     "start": "node server",
-    "build":
-      "rimraf dist && webpack --config ./config/webpack.production.config.js --progress --profile --colors",
+    "build": "rimraf docs && webpack --config ./config/webpack.production.config.js --progress --profile --colors",
     "lint": "tslint .",
     "prettier": "prettier --write **/*.{js,ts,tsx,scss,json}"
   },
@@ -59,8 +58,9 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.16.1",
+    "http-server": "^0.11.1",
     "json-loader": "^0.5.4",
-    "node-sass": "^3.7.0",
+    "node-sass": "^4.12.0",
     "postcss-loader": "^0.9.1",
     "react-addons-test-utils": "^15.0.2",
     "redux-devtools": "^3.2.0",
@@ -71,6 +71,7 @@
     "source-map-loader": "^0.1.5",
     "stats-webpack-plugin": "^0.3.1",
     "style-loader": "^0.13.1",
+    "surge": "^0.21.3",
     "ts-loader": "^1.1.0",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",

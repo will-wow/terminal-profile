@@ -13,8 +13,8 @@ class About extends React.Component<any, IAboutState> {
           (Though, FYI, I'm in Los Angeles.)
         </p>
         <p>
-          I'm currently a full-stack Software Engineer at AssetAvenue, a fintech
-          startup in LA. I’ve worked in early stage startups to help people
+          I'm currently a Software Developer at Carbon Five, an agile product 
+          consultancy. I’ve worked in early stage startups to help people
           create complicated real estate loan applications online, and to share,
           view, and manage permissions on files. I particularly enjoy functional
           programming languages, and languages off the beaten path in general,

@@ -11,7 +11,7 @@ module.exports = {
   entry: [path.join(__dirname, "../src/index.tsx")],
   // Where you want the output to go
   output: {
-    path: path.join(__dirname, "../dist/"),
+    path: path.join(__dirname, "../docs/"),
     filename: "[name]-[hash].min.js",
     publicPath: "/"
   },
